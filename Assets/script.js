@@ -4,15 +4,41 @@ countdownId.style.display = "none";
 var countdown = document.getElementById("countdownId")
 var question = document.getElementById("question")
 var choice1 = document.getElementById("choice1")
-
+var choice2 = document.getElementById("choice2")
+var choice3 = document.getElementById("choice3")
+var choice4 = document.getElementById("choice4")
 var questionArr = ["This is a question", "This is another question"]
 
-var correctAnswers = [1]
+// choice1.addEventListener("click", choice1Func)
+
+// choice1 = 69
+
+// function choice1Func() {
+//   choice1 = 5
+//   alert('Thanks for clicking!');
+// }
+
+
+
 
 function firstQuestion() {
- question.textContent = questionArr[0].toString();
+question.textContent = questionArr[0].toString();
+
+choice1.addEventListener("click", function(event) {
+	alert('hello');
+});
+
 }
-choice1.addEventListener("click", countdownTimer)
+
+function secondQuestion() {
+  question.textContent = questionArr[1].toString();
+  var answer = [1]
+  if (choice1 = 1) {
+ 
+  }
+ 
+ }
+
 
 function startQuiz() {
     var start = document.getElementById("start");
@@ -45,3 +71,6 @@ function countdownTimer() {
   }, 1000);
 }
 
+function subtractTime () {
+
+}

@@ -48,10 +48,10 @@ button {
 #countdownId {
     position: fixed;
     top: 1em;
-    right: 1em;
+    right: 1em; 
 }
 
-.questions {
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
