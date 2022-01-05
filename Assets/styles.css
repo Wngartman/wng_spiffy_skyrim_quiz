@@ -1,0 +1,74 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+.frontPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+
+#start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    font-size: 35px;
+  }
+  
+#countdownId {
+    position: fixed;
+    top: 1em;
+    right: 1em;
+}
+
+.questions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    font-size: 35px;
+  }
+
+#quest1 {
+    display: flex;
+    flex-direction: row;
+}
+
+input[type="button"], input[type="submit"] {
+    display: flex;
+    border: solid ;
+    background-color: rgb(42, 255, 255);
+    height: 5vh;
+    font-size: 35px;
+    margin: 15px;
+  }
