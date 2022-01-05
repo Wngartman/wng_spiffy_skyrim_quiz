@@ -15,22 +15,16 @@
             <h2><button onclick="startQuiz();">Start Quiz</button></h2>
         </div>
     </div>
+
     <p id="countdownId"></p>
-    <div class="questions">
-        <div id="quest1">
-            <h2 id="question">What is the answer to this question?</h2>
-            <form id= "questOne">
-                <input type="button" name="choice" id = "choice1" value="Yes">
-                <input type="button" name="choice" id = "choice2" value="No">
-                <input type="button" name="choice" id = "choice3" value="Maybe so">
-                <input type="button" name="choice" id = "choice4" value="None of These">
-            </form>
-        </div>
 
-
-</div>
+    
+    <div id="questions">
+        <h2 id="question">What is the answer to this question?</h2>
+        <div id="choices" class="choices"></div>
     </div>
-        
+            
+       
     <script src="Assets/script.js"></script>
 </body>
 </html>
