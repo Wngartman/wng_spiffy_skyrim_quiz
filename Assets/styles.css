@@ -64,7 +64,7 @@ button {
     flex-direction: row;
 }
 
-input[type="button"], input[type="submit"] {
+.choices1 {
     display: flex;
     border: solid ;
     background-color: rgb(42, 255, 255);
